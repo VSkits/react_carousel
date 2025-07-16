@@ -53,8 +53,6 @@ const Carousel: React.FC<Props> = ({
         style={{
           transition: `transform ${animationDuration / 1000}s ease`,
           transform: `translateX(${offset}px)`,
-          animationDuration: `${animationDuration}ms`,
-          animation: 'ease-in-out',
         }}
       >
         {images.map((image, i) => (

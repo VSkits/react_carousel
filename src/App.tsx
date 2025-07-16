@@ -62,7 +62,6 @@ class App extends React.Component<{}, State> {
             <input
               id="itemWidth:"
               type="number"
-              defaultValue={120}
               value={itemWidth}
               min={120}
               step={10}
@@ -76,7 +75,6 @@ class App extends React.Component<{}, State> {
               type="number"
               value={frameSize}
               onChange={handleFrameSize}
-              defaultValue={3}
               min={1}
             />
           </label>
@@ -87,7 +85,6 @@ class App extends React.Component<{}, State> {
               type="number"
               value={step}
               onChange={handleStep}
-              defaultValue={3}
               min={1}
             />
           </label>
@@ -98,7 +95,6 @@ class App extends React.Component<{}, State> {
               type="number"
               value={animationDuration}
               onChange={handleAnimationDuration}
-              defaultValue={1000}
               min={1000}
               step={500}
             />
